@@ -1,2 +1,16 @@
-node_modules
+# node_modules
+# .env
+# Node dependencies and lock files
+/node_modules
+package-lock.json
+
+# Environment variables (security)
 .env
+
+# Vercel and build files
+.vercel
+/dist
+/build
+
+# VS Code settings (optional, but good for consistency)
+.vscode/
